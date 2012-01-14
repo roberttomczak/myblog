@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Ufo Blog]]></title>
+  <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
+  <link href="http://roberttomczak.github.com/myblog/"/>
+  <updated>2012-01-14T15:25:18+01:00</updated>
+  <id>http://roberttomczak.github.com/myblog/</id>
+  <author>
+    <name><![CDATA[Robert Tomczak]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
