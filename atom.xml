@@ -4,7 +4,7 @@
   <title><![CDATA[Ufo Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-14T15:56:25+01:00</updated>
+  <updated>2012-01-14T15:59:54+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -19,6 +19,8 @@
     <updated>2012-01-14T15:42:00+01:00</updated>
     <id>http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress</id>
     <content type="html"><![CDATA[<h5>The first post since I deploy octopress.</h5>
+
+<p>It was a hard time but finally I did it.</p>
 ]]></content>
   </entry>
   
