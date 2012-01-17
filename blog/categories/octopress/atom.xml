@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Robert Tomczak Blog]]></title>
-  <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Robert Tomczak Blog]]></title>
+  <link href="http://roberttomczak.github.com/myblog/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
   <updated>2012-01-17T22:11:44+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
@@ -12,34 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Wrzucanie Octopressa na Githuba]]></title>
-    <link href="http://roberttomczak.github.com/myblog/blog/2012/01/17/wrzucanie-octopressa-na-githuba/"/>
-    <updated>2012-01-17T19:58:00+01:00</updated>
-    <id>http://roberttomczak.github.com/myblog/blog/2012/01/17/wrzucanie-octopressa-na-githuba</id>
-    <content type="html"><![CDATA[<p>Aby blog nie siedział tylko na komputerze w kilku krokach możemy wrzycic go na Github Pages.</p>
-
-<p>Aby to zrobić należy posępować według kroków:</p>
-
-<ul>
-<li>zakładamy nowe repozytorium na githubie</li>
-<li>następnie w terminalu przechodzimy do głównego katalogu octopressa</li>
-<li>tworzymy nową gałąź np. <code>git checkout -b source</code></li>
-<li>następnie musisz dodac remote&#8217;a na te repo, a dokładnie użyć komendy <code>git remote add origin git@github.com:nazwa_uzytkownika/nazwa_repo</code></li>
-<li>a następnie pchnąc na source&#8217;a <code>git push origin source</code></li>
-<li>po zakończeniu wpisujemy <code>rvm rvmrc trust</code></li>
-<li>później przeładowywujemy rvm komendą <code>rvm reload</code></li>
-<li>następnie wpisujemy <code>rake setup_github_pages</code> i wklejamy nasz adres repozytorium <code>git@github.com:nazwa_użytkownika/nazwa_repo</code></li>
-<li>rake install</li>
-<li>rake generate</li>
-<li>rake deploy</li>
-</ul>
-
-
-<p>Po wykonaniu wszystkich kroków i zmianie wartości root na /nazwa_repo w <em>config.yml octopress powinien pojawić się na stronie <code>nazwa_uzytkownika.github.com/nazwa_repo</code>. Trzeba pamiętać że po zmianie pliku </em>config.yml trzeba znowu użyć komend rake generate i rake deploy.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Instalowanie Octopressa]]></title>
@@ -55,9 +27,9 @@
 <li>instalujemy rvm z terminala na pomocą <code>bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )</code></li>
 <li>następnie dodajemy do .basmohprofile linijkę  <code>echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] &amp;&amp; . "$HOME/.rvm/scripts/rvm" # Load RVM function' &gt;&gt; ~/.bash_profile</code> aby terminal ładował rvm</li>
 <li>przeładowywujemy bashprofile <code>source .bash_profile</code>, aby zmiany w bashprofile były zauważone</li>
-<li><code>type rvm | head -1</code> sprawdzamy czy rvm się dobrze zainstalował, jeżeli pokaże się &#8220;rvm jest funkcją&#8221; to znaczy, że rvm dobrze sie zainstalował</li>
-<li>wpisujemy <code>rvm requirements</code> aby sprawdzić jakie aplikacje są potrzebne do dobrego działania ruby&#8217;ego</li>
-<li>następnie instalujemy wskazane aplikacje do odpowiedniego działania ruby&#8217;ego</li>
+<li><code>type rvm | head -1</code> sprawdzamy czy rvm się dobrze zainstalował, jeżeli pokaże się "rvm jest funkcją" to znaczy, że rvm dobrze sie zainstalował</li>
+<li>wpisujemy <code>rvm requirements</code> aby sprawdzić jakie aplikacje są potrzebne do dobrego działania ruby'ego</li>
+<li>następnie instalujemy wskazane aplikacje do odpowiedniego działania ruby'ego</li>
 <li>wpisujemy <code>rvm list known</code> aby sprawdzić jakie wersje programów rvm obecnie obsługuje i jakie za pomocą rvm możemy zainstalowac</li>
 <li>wpisujemy <code>rvm install 1.9.2</code> aby zainstalować ruby 1.9.2</li>
 <li>wpisujemy ruby -v, aby sprawdzić czy system operacyjny używa wersji którą mu zainsatalowaliśmy, jeżeli nie odczytuje wersji 1.9.2 którą zainstalowaliśmy należy wpisać rvm use 1.9.2</li>
@@ -66,7 +38,7 @@
 </ol>
 
 
-<p>I takim sposobem zainstalowaliśmy ruby dzieki czemu możemy zacząć instalowac samego &#8220;Octopressa&#8221;.</p>
+<p>I takim sposobem zainstalowaliśmy ruby dzieki czemu możemy zacząć instalowac samego "Octopressa".</p>
 
 <ol>
 <li><p>Aby zacząć instalację najpierw trzeba go sklonować repozytorium Octopressa ze strony imathisa na <a href="https://github.com/imathis/octopress">githubie</a>.</p>
@@ -91,19 +63,6 @@
 
 
 <p>W następnym poście dowiemy się jak swojego octopressa wrzucić na githuba.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My First Post on Octopress]]></title>
-    <link href="http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress/"/>
-    <updated>2012-01-14T15:42:00+01:00</updated>
-    <id>http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress</id>
-    <content type="html"><![CDATA[<h4>Blog Roberta Tomczaka.</h4>
-
-<p>Stworzony na potrzeby zaliczenia &#8220;Środowiska Programisty&#8221;.</p>
-
-<p>Aby dowiedzieć się jak stworzyć takiego bloga przejdź do posta wyżej.</p>
 ]]></content>
   </entry>
   
