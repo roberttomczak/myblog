@@ -4,7 +4,7 @@
   <title><![CDATA[Robert Tomczak Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T21:20:37+01:00</updated>
+  <updated>2012-01-17T21:39:21+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -52,14 +52,14 @@
 <li>Zainstaluj conajmniej Ruby 1.9.2 gdyż starszych wersji octopress nie obsługuje. Możesz to zrobić dzieki RVM(Ruby Version Manager) a dokładnie tak:
 
 <blockquote><ul>
-<li>bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )</li>
-<li>echo &#8216;[[ -s &#8220;$HOME/.rvm/scripts/rvm&#8221; ]] &amp;&amp; . &#8220;$HOME/.rvm/scripts/rvm&#8221; # Load RVM function&#8217; >> ~/.bash_profile</li>
-<li>source .bash_profile</li>
-<li>type rvm | head -1</li>
-<li>rvm requirements</li>
-<li>instalacja wskazanych aplikacji do odpowiedniego działania ruby&#8217;ego</li>
-<li>rvm list known</li>
-<li>rvm install 1.9.2</li>
+<li>instalujemy rvm z terminala na pomocą <code>bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )</code></li>
+<li>następnie dodajemy do .basmohprofile linijkę  <code>echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] &amp;&amp; . "$HOME/.rvm/scripts/rvm" # Load RVM function' &gt;&gt; ~/.bash_profile</code> aby terminal ładował rvm</li>
+<li>przeładowywujemy bashprofile <code>source .bash_profile</code>, aby zmiany w bashprofile były zauważone</li>
+<li><code>type rvm | head -1</code> sprawdzamy czy rvm się dobrze zainstalował, jeżeli pokaże się &#8220;rvm jest funkcją&#8221; to znaczy, że rvm dobrze sie zainstalował</li>
+<li>wpisujemy <code>rvm requirements</code> aby sprawdzić jakie aplikacje są potrzebne do dobrego działania ruby&#8217;ego</li>
+<li>następnie instalujemy wskazane aplikacje do odpowiedniego działania ruby&#8217;ego</li>
+<li>wpisujemy <code>rvm list known</code> aby sprawdzić jakie wersje programów rvm obecnie obsługuje i jakie za pomocą rvm możemy zainstalowac</li>
+<li>wpisujemy <code>rvm install 1.9.2</code> aby zainstalować ruby 1.9.2</li>
 <li>wpisujemy ruby -v, aby sprawdzić czy system operacyjny używa wersji którą mu zainsatalowaliśmy, jeżeli nie odczytuje wersji 1.9.2 którą zainstalowaliśmy należy wpisać rvm use 1.9.2</li>
 </ul>
 </blockquote></li>
