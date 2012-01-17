@@ -4,7 +4,7 @@
   <title><![CDATA[Robert Tomczak Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T22:11:44+01:00</updated>
+  <updated>2012-01-17T22:32:27+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -31,9 +31,9 @@
 <li>po zakończeniu wpisujemy <code>rvm rvmrc trust</code></li>
 <li>później przeładowywujemy rvm komendą <code>rvm reload</code></li>
 <li>następnie wpisujemy <code>rake setup_github_pages</code> i wklejamy nasz adres repozytorium <code>git@github.com:nazwa_użytkownika/nazwa_repo</code></li>
-<li>rake install</li>
-<li>rake generate</li>
-<li>rake deploy</li>
+<li>wpisujemy <code>rake install</code> aby zainstalować na stronie podstawowy motyw</li>
+<li>wpisujemy <code>rake generate</code> aby wygenerowac posty i strony do publicznego katalogu</li>
+<li> na koniec wpisujemy <code>rake deploy</code> aby wdrążyć zainstniałe zmiany</li>
 </ul>
 
 
