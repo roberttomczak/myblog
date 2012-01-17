@@ -4,7 +4,7 @@
   <title><![CDATA[Ufo Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T18:31:33+01:00</updated>
+  <updated>2012-01-17T18:33:31+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -22,7 +22,7 @@
 
 <p>It was a hard time but finally I did it.</p>
 
-<p>Use &#8216;printf()&#8217;function.</p>
+<p>Use <code>printf()</code>function.</p>
 ]]></content>
   </entry>
   
