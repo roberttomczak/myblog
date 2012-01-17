@@ -9,7 +9,7 @@
   <meta name="author" content="Robert Tomczak">
 
   
-  <meta name="description" content="Aby blog nie siedział tylko na komputerze w kilku krokach możemy wrzycic go na Github Pages.Aby to zrobić należy posępować według kroków:*   zakład...">
+  <meta name="description" content="Aby blog nie siedział tylko na komputerze w kilku krokach możemy wrzycic go na Github Pages.Aby to zrobić należy posępować według kroków:zakładamy ...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -88,18 +88,22 @@
 
   <div class="entry-content"><p>Aby blog nie siedział tylko na komputerze w kilku krokach możemy wrzycic go na Github Pages.</p>
 
-<p>Aby to zrobić należy posępować według kroków:
-*   zakładamy nowe repozytorium na githubie
-*   następnie w terminalu przechodzimy do głównego katalogu octopressa
-*   tworzymy nową gałąź np. <code>git checkout -b source</code>
-*   następnie musisz dodac remote&#8217;a na te repo, a dokładnie użyć komendy <code>git remote add origin git@github.com:nazwa_uzytkownika/nazwa_repo</code>
-*   a następnie pchnąc na source&#8217;a <code>git push origin source</code>
-*   po zakończeniu wpisujemy <code>rvm rvmrc trust</code>
-*   później przeładowywujemy rvm komendą <code>rvm reload</code>
-*   następnie wpisujemy <code>rake setup_github_pages</code> i wklejamy nasz adres repozytorium <code>git@github.com:nazwa_użytkownika/nazwa_repo</code>
-*   rake install  <br/>
-*   rake generate
-*   rake deploy</p>
+<p>Aby to zrobić należy posępować według kroków:</p>
+
+<ul>
+<li>zakładamy nowe repozytorium na githubie</li>
+<li>następnie w terminalu przechodzimy do głównego katalogu octopressa</li>
+<li>tworzymy nową gałąź np. <code>git checkout -b source</code></li>
+<li>następnie musisz dodac remote&#8217;a na te repo, a dokładnie użyć komendy <code>git remote add origin git@github.com:nazwa_uzytkownika/nazwa_repo</code></li>
+<li>a następnie pchnąc na source&#8217;a <code>git push origin source</code></li>
+<li>po zakończeniu wpisujemy <code>rvm rvmrc trust</code></li>
+<li>później przeładowywujemy rvm komendą <code>rvm reload</code></li>
+<li>następnie wpisujemy <code>rake setup_github_pages</code> i wklejamy nasz adres repozytorium <code>git@github.com:nazwa_użytkownika/nazwa_repo</code></li>
+<li>rake install</li>
+<li>rake generate</li>
+<li>rake deploy</li>
+</ul>
+
 
 <p>Po wykonaniu wszystkich kroków i zmianie wartości root na /nazwa_repo w <em>config.yml octopress powinien pojawić się na stronie <code>nazwa_uzytkownika.github.com/nazwa_repo</code>. Trzeba pamiętać że po zmianie pliku </em>config.yml trzeba znowu użyć komend rake generate i rake deploy.</p>
 </div>
