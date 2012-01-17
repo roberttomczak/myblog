@@ -4,7 +4,7 @@
   <title><![CDATA[Ufo Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T20:44:23+01:00</updated>
+  <updated>2012-01-17T21:15:48+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -25,8 +25,17 @@
 <li>następnie w terminalu przechodzimy do głównego katalogu octopressa</li>
 <li>tworzymy nową gałąź np. git checkout -b source</li>
 <li>następnie musisz dodac remote&#8217;a na te repo, a dokładnie użyć komendy git remote add origin git@github.com:nazwa_uzytkownika/nazwa_repo</li>
+<li>a następnie pchnąc na source&#8217;a <code>git push origin source</code></li>
+<li>po zakończeniu wpisujemy <code>rvm rvmrc trust</code></li>
+<li>później przeładowywujemy rvm komendą <code>rvm reload</code></li>
+<li>następnie wpisujemy <code>rake setup_github_pages</code> i wklejamy nasz adres repozytorium <code>git@github.com:nazwa_użytkownika/nazwa_repo</code></li>
+<li>rake install</li>
+<li>rake generate</li>
+<li>rake deploy</li>
 </ul>
 
+
+<p>Po wykonaniu wszystkich kroków i zmianie wartości root na /nazwa_repo w <em>config.yml octopress powinien pojawić się na stronie <code>nazwa_uzytkownika.github.com/nazwa_repo</code>. Trzeba pamiętać że po zmianie pliku </em>config.yml trzeba znowu użyć komend rake generate i rake deploy.</p>
 ]]></content>
   </entry>
   
