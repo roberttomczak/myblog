@@ -4,7 +4,7 @@
   <title><![CDATA[Ufo Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T20:01:29+01:00</updated>
+  <updated>2012-01-17T20:02:29+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -18,7 +18,7 @@
     <link href="http://roberttomczak.github.com/myblog/blog/2012/01/17/wrzucanie-octopressa-na-githuba/"/>
     <updated>2012-01-17T19:58:00+01:00</updated>
     <id>http://roberttomczak.github.com/myblog/blog/2012/01/17/wrzucanie-octopressa-na-githuba</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Aby blog nie siedział tylko na komputerze w łatwy sposób możemy wrzycic go na Github Pages.</p>
 ]]></content>
   </entry>
   
