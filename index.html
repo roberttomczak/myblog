@@ -9,7 +9,7 @@
   <meta name="author" content="Robert Tomczak">
 
   
-  <meta name="description" content="The first post since I deploy octopress.It was a hard time but finally I did it.Use printf()function.">
+  <meta name="description" content="Aby zainstalowac Octopressa:Zainstaluj conajmniej Ruby 1.9.2 gdyż starszych wersji octopress nie obsługuje. Możesz to zrobić dzieki RVM(Ruby Versio...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,11 +19,11 @@
 
   
   <link rel="canonical" href="http://roberttomczak.github.com/myblog/">
-  <link href="/myblog/favicon.png" rel="icon">
-  <link href="/myblog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/myblog/javascripts/modernizr-2.0.js"></script>
-  <script src="/myblog/javascripts/ender.js"></script>
-  <script src="/myblog/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="Ufo Blog" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -35,7 +35,7 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/myblog/">Ufo Blog</a></h1>
+  <h1><a href="/">Ufo Blog</a></h1>
   
     <h2>My personal blog.</h2>
   
@@ -53,8 +53,8 @@
   </fieldset>
 </form>
 <ul class="main-navigation">
-  <li><a href="/myblog/">Blog</a></li>
-  <li><a href="/myblog/blog/archives">Archives</a></li>
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
 </ul>
 
 </nav>
@@ -68,7 +68,82 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/myblog/blog/2012/01/14/my-first-post-on-octopress/">My First Post on Octopress</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/01/17/instalowanie-octopressa/">Instalowanie Octopressa</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+  
+
+<time datetime="2012-01-17T18:41:00+01:00" pubdate>Jan 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Aby zainstalowac Octopressa:</p>
+
+<ol>
+<li>Zainstaluj conajmniej Ruby 1.9.2 gdyż starszych wersji octopress nie obsługuje. Możesz to zrobić dzieki RVM(Ruby Version Manager) a dokładnie tak:
+
+<blockquote><ul>
+<li>bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )</li>
+<li>echo &#8216;[[ -s &#8220;$HOME/.rvm/scripts/rvm&#8221; ]] &amp;&amp; . &#8220;$HOME/.rvm/scripts/rvm&#8221; # Load RVM function&#8217; >> ~/.bash_profile</li>
+<li>source .bash_profile</li>
+<li>type rvm | head -1</li>
+<li>rvm requirements</li>
+<li>instalacja wskazanych aplikacji do odpowiedniego działania ruby&#8217;ego</li>
+<li>rvm list known</li>
+<li>rvm install 1.9.2</li>
+<li>wpisujemy ruby -v, aby sprawdzić czy system operacyjny używa wersji którą mu zainsatalowaliśmy, jeżeli nie odczytuje wersji 1.9.2 którą zainstalowaliśmy należy wpisać rvm use 1.9.2</li>
+</ul>
+</blockquote></li>
+</ol>
+
+
+<p>I takim sposobem zainstalowaliśmy ruby dzieki czemu możemy zacząć instalowac samego &#8220;Octopressa&#8221;.</p>
+
+<ol>
+<li><p>Aby zacząć instalację najpierw trzeba go sklonować repozytorium Octopressa ze strony imathisa na <a href="https://github.com/imathis/octopress">githubie</a>.</p>
+
+<blockquote><ul>
+<li>po pobraniu przejdź do folderu octopressa</li>
+<li>następnie zainstaluj gem bundler abyś mógł zainstalować gemy potrzebne do odpowiedniego działania octopressa</li>
+<li>następnie użyj komendy <code>rake install</code> aby zainstalowac podstawowy motyw</li>
+</ul>
+</blockquote></li>
+<li><p>I teraz mamy zainstalowanego i działającego octopressa. Aby zmienić podstawowe ustawienia octopressa abyś mógł nim zarządzać według własnej woli. Przechodzimy do katalogu głównego octopressa i otwieramy plik _config.yml. W tym pliku możemy zmienić:</p>
+
+<ul>
+<li>tytuł</li>
+<li>podtytuł</li>
+<li>email</li>
+<li>informacje o githubie</li>
+<li>oraz inne takie jak: Twitter, Google Plus, Delicious i Facebook Like</li>
+</ul>
+</li>
+</ol>
+
+
+<p>W następnym poście dowiemy się jak swojego octopressa wrzucić na githuba</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/14/my-first-post-on-octopress/">My First Post on Octopress</a></h1>
     
     
       <p class="meta">
@@ -86,11 +161,11 @@
   </header>
 
 
-  <div class="entry-content"><h5>The first post since I deploy octopress.</h5>
+  <div class="entry-content"><h4>Blog Roberta Tomczaka.</h4>
 
-<p>It was a hard time but finally I did it.</p>
+<p>Stworzony na potrzeby zaliczenia &#8220;Środowiska Programisty&#8221;.</p>
 
-<p>Use <code>printf()</code>function.</p>
+<p>Aby dowiedzieć się jak stworzyć takiego bloga przejdź do posta wyżej.</p>
 </div>
   
   
@@ -100,7 +175,7 @@
   
   <div class="pagination">
     
-    <a href="/myblog/blog/archives">Blog Archives</a>
+    <a href="/blog/archives">Blog Archives</a>
     
   </div>
 </div>
@@ -111,7 +186,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/myblog/blog/2012/01/14/my-first-post-on-octopress/">My First Post on Octopress</a>
+        <a href="/blog/2012/01/17/instalowanie-octopressa/">Instalowanie Octopressa</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/01/14/my-first-post-on-octopress/">My First Post on Octopress</a>
       </li>
     
   </ul>
@@ -128,7 +207,7 @@
       getTwitterFeed("Uf0lud3k22", 4, false);
     });
   </script>
-  <script src="/myblog/javascripts/twitter.js" type="text/javascript"> </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
   
     <a href="http://twitter.com/Uf0lud3k22" class="twitter-follow-button" data-width="208px" data-show-count="false">Follow @Uf0lud3k22</a>
   

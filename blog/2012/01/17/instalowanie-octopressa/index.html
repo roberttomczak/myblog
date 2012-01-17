@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My First Post on Octopress - Ufo Blog</title>
+  <title>Instalowanie Octopressa - Ufo Blog</title>
   <meta name="author" content="Robert Tomczak">
 
   
-  <meta name="description" content="Blog Roberta Tomczaka.Stworzony na potrzeby zaliczenia &#8220;Środowiska Programisty&#8221;.Aby dowiedzieć się jak stworzyć takiego bloga przejdź d...">
+  <meta name="description" content="Aby zainstalowac Octopressa:Zainstaluj conajmniej Ruby 1.9.2 gdyż starszych wersji octopress nie obsługuje. Możesz to zrobić dzieki RVM(Ruby Versio...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress/">
+  <link rel="canonical" href="http://roberttomczak.github.com/myblog/blog/2012/01/17/instalowanie-octopressa/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -65,7 +65,7 @@
   
   <header>
     
-      <h1 class="entry-title">My First Post on Octopress</h1>
+      <h1 class="entry-title">Instalowanie Octopressa</h1>
     
     
       <p class="meta">
@@ -76,18 +76,58 @@
 
   
 
-<time datetime="2012-01-14T15:42:00+01:00" pubdate>Jan 14<span>th</span>, 2012</time>
+<time datetime="2012-01-17T18:41:00+01:00" pubdate>Jan 17<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h4>Blog Roberta Tomczaka.</h4>
+<div class="entry-content"><p>Aby zainstalowac Octopressa:</p>
 
-<p>Stworzony na potrzeby zaliczenia &#8220;Środowiska Programisty&#8221;.</p>
+<ol>
+<li>Zainstaluj conajmniej Ruby 1.9.2 gdyż starszych wersji octopress nie obsługuje. Możesz to zrobić dzieki RVM(Ruby Version Manager) a dokładnie tak:
 
-<p>Aby dowiedzieć się jak stworzyć takiego bloga przejdź do posta wyżej.</p>
+<blockquote><ul>
+<li>bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )</li>
+<li>echo &#8216;[[ -s &#8220;$HOME/.rvm/scripts/rvm&#8221; ]] &amp;&amp; . &#8220;$HOME/.rvm/scripts/rvm&#8221; # Load RVM function&#8217; >> ~/.bash_profile</li>
+<li>source .bash_profile</li>
+<li>type rvm | head -1</li>
+<li>rvm requirements</li>
+<li>instalacja wskazanych aplikacji do odpowiedniego działania ruby&#8217;ego</li>
+<li>rvm list known</li>
+<li>rvm install 1.9.2</li>
+<li>wpisujemy ruby -v, aby sprawdzić czy system operacyjny używa wersji którą mu zainsatalowaliśmy, jeżeli nie odczytuje wersji 1.9.2 którą zainstalowaliśmy należy wpisać rvm use 1.9.2</li>
+</ul>
+</blockquote></li>
+</ol>
+
+
+<p>I takim sposobem zainstalowaliśmy ruby dzieki czemu możemy zacząć instalowac samego &#8220;Octopressa&#8221;.</p>
+
+<ol>
+<li><p>Aby zacząć instalację najpierw trzeba go sklonować repozytorium Octopressa ze strony imathisa na <a href="https://github.com/imathis/octopress">githubie</a>.</p>
+
+<blockquote><ul>
+<li>po pobraniu przejdź do folderu octopressa</li>
+<li>następnie zainstaluj gem bundler abyś mógł zainstalować gemy potrzebne do odpowiedniego działania octopressa</li>
+<li>następnie użyj komendy <code>rake install</code> aby zainstalowac podstawowy motyw</li>
+</ul>
+</blockquote></li>
+<li><p>I teraz mamy zainstalowanego i działającego octopressa. Aby zmienić podstawowe ustawienia octopressa abyś mógł nim zarządzać według własnej woli. Przechodzimy do katalogu głównego octopressa i otwieramy plik _config.yml. W tym pliku możemy zmienić:</p>
+
+<ul>
+<li>tytuł</li>
+<li>podtytuł</li>
+<li>email</li>
+<li>informacje o githubie</li>
+<li>oraz inne takie jak: Twitter, Google Plus, Delicious i Facebook Like</li>
+</ul>
+</li>
+</ol>
+
+
+<p>W następnym poście dowiemy się jak swojego octopressa wrzucić na githuba</p>
 </div>
 
 
@@ -105,7 +145,7 @@
 
   
 
-<time datetime="2012-01-14T15:42:00+01:00" pubdate>Jan 14<span>th</span>, 2012</time>
+<time datetime="2012-01-17T18:41:00+01:00" pubdate>Jan 17<span>th</span>, 2012</time>
       
 
 
@@ -113,7 +153,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress/" data-via="Uf0lud3k22" data-counturl="http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://roberttomczak.github.com/myblog/blog/2012/01/17/instalowanie-octopressa/" data-via="Uf0lud3k22" data-counturl="http://roberttomczak.github.com/myblog/blog/2012/01/17/instalowanie-octopressa/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -126,8 +166,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2012/01/14/my-first-post-on-octopress/" title="Previous Post: My First Post on Octopress">&laquo; My First Post on Octopress</a>
       
-        <a class="basic-alignment right" href="/blog/2012/01/17/instalowanie-octopressa/" title="next Post: Instalowanie Octopressa">Instalowanie Octopressa &raquo;</a>
       
     </p>
   </footer>

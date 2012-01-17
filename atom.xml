@@ -4,7 +4,7 @@
   <title><![CDATA[Ufo Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T18:38:45+01:00</updated>
+  <updated>2012-01-17T19:53:46+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -14,15 +14,68 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Instalowanie Octopressa]]></title>
+    <link href="http://roberttomczak.github.com/myblog/blog/2012/01/17/instalowanie-octopressa/"/>
+    <updated>2012-01-17T18:41:00+01:00</updated>
+    <id>http://roberttomczak.github.com/myblog/blog/2012/01/17/instalowanie-octopressa</id>
+    <content type="html"><![CDATA[<p>Aby zainstalowac Octopressa:</p>
+
+<ol>
+<li>Zainstaluj conajmniej Ruby 1.9.2 gdyż starszych wersji octopress nie obsługuje. Możesz to zrobić dzieki RVM(Ruby Version Manager) a dokładnie tak:
+
+<blockquote><ul>
+<li>bash &lt; &lt;(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )</li>
+<li>echo &#8216;[[ -s &#8220;$HOME/.rvm/scripts/rvm&#8221; ]] &amp;&amp; . &#8220;$HOME/.rvm/scripts/rvm&#8221; # Load RVM function&#8217; >> ~/.bash_profile</li>
+<li>source .bash_profile</li>
+<li>type rvm | head -1</li>
+<li>rvm requirements</li>
+<li>instalacja wskazanych aplikacji do odpowiedniego działania ruby&#8217;ego</li>
+<li>rvm list known</li>
+<li>rvm install 1.9.2</li>
+<li>wpisujemy ruby -v, aby sprawdzić czy system operacyjny używa wersji którą mu zainsatalowaliśmy, jeżeli nie odczytuje wersji 1.9.2 którą zainstalowaliśmy należy wpisać rvm use 1.9.2</li>
+</ul>
+</blockquote></li>
+</ol>
+
+
+<p>I takim sposobem zainstalowaliśmy ruby dzieki czemu możemy zacząć instalowac samego &#8220;Octopressa&#8221;.</p>
+
+<ol>
+<li><p>Aby zacząć instalację najpierw trzeba go sklonować repozytorium Octopressa ze strony imathisa na <a href="https://github.com/imathis/octopress">githubie</a>.</p>
+
+<blockquote><ul>
+<li>po pobraniu przejdź do folderu octopressa</li>
+<li>następnie zainstaluj gem bundler abyś mógł zainstalować gemy potrzebne do odpowiedniego działania octopressa</li>
+<li>następnie użyj komendy <code>rake install</code> aby zainstalowac podstawowy motyw</li>
+</ul>
+</blockquote></li>
+<li><p>I teraz mamy zainstalowanego i działającego octopressa. Aby zmienić podstawowe ustawienia octopressa abyś mógł nim zarządzać według własnej woli. Przechodzimy do katalogu głównego octopressa i otwieramy plik _config.yml. W tym pliku możemy zmienić:</p>
+
+<ul>
+<li>tytuł</li>
+<li>podtytuł</li>
+<li>email</li>
+<li>informacje o githubie</li>
+<li>oraz inne takie jak: Twitter, Google Plus, Delicious i Facebook Like</li>
+</ul>
+</li>
+</ol>
+
+
+<p>W następnym poście dowiemy się jak swojego octopressa wrzucić na githuba</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[My First Post on Octopress]]></title>
     <link href="http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress/"/>
     <updated>2012-01-14T15:42:00+01:00</updated>
     <id>http://roberttomczak.github.com/myblog/blog/2012/01/14/my-first-post-on-octopress</id>
-    <content type="html"><![CDATA[<h5>The first post since I deploy octopress.</h5>
+    <content type="html"><![CDATA[<h4>Blog Roberta Tomczaka.</h4>
 
-<p>It was a hard time but finally I did it.</p>
+<p>Stworzony na potrzeby zaliczenia &#8220;Środowiska Programisty&#8221;.</p>
 
-<p>Use <code>printf()</code>function.</p>
+<p>Aby dowiedzieć się jak stworzyć takiego bloga przejdź do posta wyżej.</p>
 ]]></content>
   </entry>
   
