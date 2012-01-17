@@ -4,7 +4,7 @@
   <title><![CDATA[Ufo Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T21:15:48+01:00</updated>
+  <updated>2012-01-17T21:16:26+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -24,7 +24,7 @@
 <li>zakładamy nowe repozytorium na githubie</li>
 <li>następnie w terminalu przechodzimy do głównego katalogu octopressa</li>
 <li>tworzymy nową gałąź np. git checkout -b source</li>
-<li>następnie musisz dodac remote&#8217;a na te repo, a dokładnie użyć komendy git remote add origin git@github.com:nazwa_uzytkownika/nazwa_repo</li>
+<li>następnie musisz dodac remote&#8217;a na te repo, a dokładnie użyć komendy <code>git remote add origin git@github.com:nazwa_uzytkownika/nazwa_repo</code></li>
 <li>a następnie pchnąc na source&#8217;a <code>git push origin source</code></li>
 <li>po zakończeniu wpisujemy <code>rvm rvmrc trust</code></li>
 <li>później przeładowywujemy rvm komendą <code>rvm reload</code></li>
