@@ -4,7 +4,7 @@
   <title><![CDATA[Robert Tomczak Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-01-17T22:33:49+01:00</updated>
+  <updated>2012-02-02T16:15:15+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Sesja skończona. Tydzień Wolnego.]]></title>
+    <link href="http://roberttomczak.github.com/myblog/blog/2012/02/02/sesja-skonczona-tydzien-wolnego/"/>
+    <updated>2012-02-02T16:12:00+01:00</updated>
+    <id>http://roberttomczak.github.com/myblog/blog/2012/02/02/sesja-skonczona-tydzien-wolnego</id>
+    <content type="html"><![CDATA[<p>2 tygodnie ciężkiego bólu minęło. Nareszcie nadszedł czas na odpoczynek, a dla poprawiających tydzien na nauke do poprawki.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Wrzucanie Octopressa na Githuba]]></title>
