@@ -4,7 +4,7 @@
   <title><![CDATA[Robert Tomczak Blog]]></title>
   <link href="http://roberttomczak.github.com/myblog/atom.xml" rel="self"/>
   <link href="http://roberttomczak.github.com/myblog/"/>
-  <updated>2012-02-02T16:16:36+01:00</updated>
+  <updated>2012-03-22T19:33:07+01:00</updated>
   <id>http://roberttomczak.github.com/myblog/</id>
   <author>
     <name><![CDATA[Robert Tomczak]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Algorytmy i struktury danych]]></title>
+    <link href="http://roberttomczak.github.com/myblog/blog/2012/03/22/algorytmy-i-struktury-danych/"/>
+    <updated>2012-03-22T19:29:00+01:00</updated>
+    <id>http://roberttomczak.github.com/myblog/blog/2012/03/22/algorytmy-i-struktury-danych</id>
+    <content type="html"><![CDATA[<p>Semestr trwa dalej, ale trzeba żyć. Najgorsze są Algorytmy i struktury danych. Życze wszystkim z 2 roku, aby je przeżyli.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sesja skończona. Tydzień Wolnego.]]></title>
